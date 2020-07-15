@@ -1,0 +1,24 @@
+Task 0:
+ - Time Complexity - O(1)
+ - Two lines of code will always take same amount of time.
+
+Task 1:
+ - Time Complexity - O(n)
+ - This algorithm has linear time complexity. Execution time grows lineraly as it reads the data from dataset.
+
+Task 2:
+ - Time Complexity - O(n)
+ - Execution time will grow linearly, in direct proportion to the input data.
+
+Task 3:
+ - Time Complexity - O(nlog(n))
+ - Execution time for the bulk of the code will grow linearly, in direct proportion to the input data. However, the `sorted` function has a complexity of `O(n log n)`, which affects the overall efficiency of the code.
+
+Total = O(n + nlogn + n) -> O(2n + nlogn) -> O(nlogn)
+
+   
+Task 4:
+ - Time Complexity - O(nlog(n))
+ - Execution time for the bulk of the code will grow linearly, in direct proportion to the input data. However, the `sorted` function has a complexity of `O(n log n)`, which affects the overall efficiency of the code.
+
+Total = O(n + n + nlogn + n) -> O(3n + nlogn) -> O(nlogn)
